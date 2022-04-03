@@ -5,23 +5,12 @@ print("--------------------------------------------------------------")
 print("El juego consiste en hbchjchsfbshfsfjhsfhjshjfhsfsf sf sfhj sf svh")
 print("---------------------------------------------------------------")
 
-
+'''  #Esta parte la tengo comentada porque queria hacer un menu pero me falta algo que no me quiso dar 
 def menu():
     opcion = int(input("inserta un numero valor >> "+
                         "1. Jugar\n"+
                         " 2. Salir\n"+
                         "Elija una opcion: \n"))
-   
-
-    
-    
-    
-
-
-
-
-
-selc = ["piedra", "papel", "tijera", "lagarto", "spock" ]
 
 while True:
     
@@ -35,12 +24,13 @@ while True:
 	else:
 		print ("")
 		input("No has pulsado ninguna opción correcta...\npulsa una tecla para continuar")
-    
-    
-    
-    
-    
-    
+  ''' 
+
+
+selc = ["piedra", "papel", "tijera", "lagarto", "spock" ]                      #Esta parte ya seria el codigo del juego, hasta el momento solo lo hice con 3 opciones
+
+while True:                                                                    #para agregar las otras opciones es simplemente seguir el mismo comando de elif y listo
+
     user1 = input("Elije: Piedra, Papel, Tijera, Lagarto, Spock: ")
     if user1 not in selc:
         print("\nOpcion no valida")
